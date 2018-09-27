@@ -1,0 +1,3 @@
+Exports  all Files to .csv
+
+dir -Recurse -File | Select Name,Extension,CreationTime,Length,FullName | Export-Csv "D:\FilesReport.csv"
